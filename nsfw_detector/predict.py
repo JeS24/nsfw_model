@@ -10,6 +10,9 @@ import tensorflow as tf
 from tensorflow import keras
 import tensorflow_hub as hub
 
+from silence_tensorflow import silence_tensorflow ## Tirtha: To suppress warnings
+silence_tensorflow()
+
 
 IMAGE_DIM = 224   # required/default image dimensionality
 
